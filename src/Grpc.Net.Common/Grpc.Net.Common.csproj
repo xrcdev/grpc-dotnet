@@ -9,8 +9,10 @@
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
   </PropertyGroup>
 
+  
+
   <ItemGroup>
-    <PackageReference Include="Grpc.Core.Api" Version="$(GrpcPackageVersion)" />
+    <ProjectReference Include="..\Grpc.Core.Api2\Grpc.Core.Api.csproj" />
   </ItemGroup>
 
 </Project>

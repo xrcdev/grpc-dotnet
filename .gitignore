@@ -40,3 +40,7 @@ global.json
 build/feed
 .dotnet/
 *.log.txt
+/src/Grpc.Core.Api
+/MauiApp_GRPC_Test
+/MauiApp_GrpcClientTest
+/MauiApp1
